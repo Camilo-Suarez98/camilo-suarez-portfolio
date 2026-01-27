@@ -4,17 +4,17 @@ import { Github, Linkedin, Mail } from "lucide-react";
 const socialLinks = [
   {
     name: "GitHub",
-    href: "https://github.com/camilosuarez",
+    href: "https://github.com/Camilo-Suarez98",
     icon: Github,
   },
   {
     name: "LinkedIn",
-    href: "https://linkedin.com/in/camilosuarez",
+    href: "https://www.linkedin.com/in/camilosc98",
     icon: Linkedin,
   },
   {
     name: "Email",
-    href: "mailto:contact@camilosuarez.dev",
+    href: "mailto:camilo.suarez85@gmail.com",
     icon: Mail,
   },
 ];
