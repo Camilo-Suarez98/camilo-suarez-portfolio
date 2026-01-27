@@ -79,4 +79,4 @@ export function ProjectCard({
   }
 
   return <div className={sharedClassName}>{content}</div>;
-};
+}
