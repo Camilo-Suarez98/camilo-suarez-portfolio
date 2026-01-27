@@ -1,16 +1,15 @@
-import React from "react"
-import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
-import './globals.css'
+import React from "react";
+import type { Metadata } from 'next';
+import { Geist, Geist_Mono } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/next';
+import './globals.css';
 
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Camilo Suarez | Full Stack Developer',
-  description: 'Full Stack Developer based in Bucaramanga, Colombia. Building scalable, user-centric web applications.',
-  generator: 'v0.app',
+  title: 'Camilo Suarez | Frontend Developer',
+  description: 'Frontend Developer based in Bucaramanga, Colombia. Building scalable, user-centric web applications.',
   icons: {
     icon: [
       {
@@ -28,7 +27,7 @@ export const metadata: Metadata = {
     ],
     apple: '/apple-icon.png',
   },
-}
+};
 
 export default function RootLayout({
   children,
@@ -42,5 +41,5 @@ export default function RootLayout({
         <Analytics />
       </body>
     </html>
-  )
-}
+  );
+};
