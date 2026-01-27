@@ -5,13 +5,7 @@ import { ProjectCard } from "./project-card";
 
 export function ProjectsSection() {
   return (
-    <section id="projects" className="scroll-mt-16 md:scroll-mt-24 lg:scroll-mt-36">
-      <div className="mb-12 w-screen">
-        <h2 className="text-sm font-bold uppercase tracking-widest text-foreground">
-          Projects
-        </h2>
-      </div>
-
+    <>
       <div className="group/list">
         <ol className="space-y-12">
           {projects.map((project, index) => (
@@ -33,6 +27,6 @@ export function ProjectsSection() {
           <ArrowUpRight className="ml-1 h-4 w-4 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
         </Link>
       </div>
-    </section>
+    </>
   );
 };
