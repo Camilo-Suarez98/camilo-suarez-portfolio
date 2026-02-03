@@ -10,8 +10,6 @@ import { ExperiencesSection } from "@/components/experiences-section";
 export default function Home() {
   return (
     <div className="relative min-h-screen bg-background">
-      <CursorGlow />
-
       <div className="mx-auto min-h-screen max-w-7xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
         <div className="lg:flex lg:justify-between lg:gap-4">
           <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
