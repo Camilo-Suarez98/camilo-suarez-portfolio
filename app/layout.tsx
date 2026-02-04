@@ -10,6 +10,22 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Camilo Suarez | Frontend Developer',
   description: 'Frontend Developer based in Bucaramanga, Colombia. Building scalable, user-centric web applications.',
+  keywords: ['frontend', 'developer', 'web applications', 'Bucaramanga', 'Colombia'],
+  openGraph: {
+    title: 'Camilo Suarez | Frontend Developer',
+    description: 'Frontend Developer based in Bucaramanga, Colombia. Building scalable, user-centric web applications.',
+    type: 'website',
+    locale: 'en',
+    siteName: 'Camilo Suarez | Frontend Developer',
+    images: [
+      {
+        url: '/opengraph-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Camilo Suarez | Frontend Developer',
+      },
+    ],
+  },
   icons: {
     icon: [
       {
@@ -25,7 +41,7 @@ export const metadata: Metadata = {
         type: 'image/jpg',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/apple-icon.jpg',
   },
 };
 

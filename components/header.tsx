@@ -33,20 +33,20 @@ export function Header() {
   }, []);
 
   return (
-    <nav className="flex flex-col gap-3 text-sm">
+    <nav className="hidden lg:flex flex-col gap-3 text-sm">
       {navItems.map((item) => (
         <Link
           key={item.name}
           href={item.href}
           className={`group flex items-center gap-3 transition-all duration-300 ${activeSection === item.href.slice(1)
-              ? "text-foreground"
-              : "text-muted-foreground hover:text-foreground"
+            ? "text-foreground"
+            : "text-muted-foreground hover:text-foreground"
             }`}
         >
           <span
             className={`h-px transition-all duration-300 ${activeSection === item.href.slice(1)
-                ? "w-16 bg-foreground"
-                : "w-8 bg-muted-foreground group-hover:w-16 group-hover:bg-foreground"
+              ? "w-16 bg-foreground"
+              : "w-8 bg-muted-foreground group-hover:w-16 group-hover:bg-foreground"
               }`}
           />
           <span className="text-xs font-medium uppercase tracking-widest">
