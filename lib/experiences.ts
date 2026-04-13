@@ -1,6 +1,6 @@
 export const experiences = [
   {
-    dateRange: "July 2025 — Present",
+    dateRange: "July 2025 — December 2025",
     title: "Frontend Developer",
     company: "Mocion Experience Tech",
     description:

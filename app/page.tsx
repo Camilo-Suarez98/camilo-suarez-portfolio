@@ -35,7 +35,7 @@ export default function Home() {
               <SocialLinks />
 
               <Link
-                href="https://drive.google.com/file/d/176hHcLrMqLZilL4TmRCyqmdIAmedA819/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1wPED_bjExl5YZOB_DTqEYJldh0G7NWkw/view?usp=sharing"
                 className="group inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-primary transition-colors w-fit"
                 target="_blank"
                 rel="noopener noreferrer"
