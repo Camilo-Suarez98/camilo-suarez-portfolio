@@ -1,5 +1,5 @@
-import { experiences } from "../lib/experiences";
 import { ExperienceCard } from "./experience-card";
+import { experiences } from "@/lib/experiences";
 
 export function ExperiencesSection() {
   return (

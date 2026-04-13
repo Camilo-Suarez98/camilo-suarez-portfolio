@@ -8,21 +8,21 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Camilo Suarez | Frontend Developer',
-  description: 'Frontend Developer based in Bucaramanga, Colombia. Building scalable, user-centric web applications.',
+  title: 'Camilo Suarez | Fullstack Developer',
+  description: 'Fullstack Developer focused in Frontend based in Bucaramanga, Colombia. Building scalable, user-centric web applications.',
   keywords: ['frontend', 'developer', 'web applications', 'Bucaramanga', 'Colombia'],
   openGraph: {
-    title: 'Camilo Suarez | Frontend Developer',
-    description: 'Frontend Developer based in Bucaramanga, Colombia. Building scalable, user-centric web applications.',
+    title: 'Camilo Suarez | Fullstack Developer',
+    description: 'Fullstack Developer focused in Frontend based in Bucaramanga, Colombia. Building scalable, user-centric web applications.',
     type: 'website',
     locale: 'en',
-    siteName: 'Camilo Suarez | Frontend Developer',
+    siteName: 'Camilo Suarez | Fullstack Developer',
     images: [
       {
         url: '/opengraph-image.png',
         width: 1200,
         height: 630,
-        alt: 'Camilo Suarez | Frontend Developer',
+        alt: 'Camilo Suarez | Fullstack Developer',
       },
     ],
   },

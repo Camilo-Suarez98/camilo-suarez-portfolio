@@ -1,6 +1,3 @@
-import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
-
 interface ExperienceCardProps {
   dateRange: string;
   title: string;
@@ -14,7 +11,6 @@ export function ExperienceCard({
   dateRange,
   title,
   company,
-  companyUrl,
   description,
   technologies,
 }: ExperienceCardProps) {
