@@ -3,8 +3,8 @@ export default function BioDescription() {
     <>
       <div className="text-muted-foreground">
         <p className="mb-4">
-          {"I'm"} Camilo, a Frontend Developer based in{" "}
-          <span className="text-foreground font-medium">Bucaramanga, Colombia</span>.
+          {"I'm"} Camilo, a Fullstack Developer focused in Frontend based in{" "}
+          <span className="text-foreground font-medium">Bucaramanga, Colombia 🇨🇴</span>.
           I specialize in building scalable, user-centric web applications that
           merge precision engineering with modern aesthetics.
         </p>

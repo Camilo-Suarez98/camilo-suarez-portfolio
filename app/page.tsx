@@ -1,6 +1,5 @@
 import { Header } from "@/components/header";
 import { SocialLinks } from "@/components/social-links";
-import { CursorGlow } from "@/components/cursor-glow";
 import Link from "next/link";
 import { ArrowUpRight, FileText } from "lucide-react";
 import BioDescription from "@/components/bio-description";
@@ -21,7 +20,7 @@ export default function Home() {
               </h1>
 
               <h2 className="mt-3 text-lg font-medium tracking-tight text-primary sm:text-xl">
-                Frontend Developer
+                Fullstack Developer focused in Frontend
               </h2>
 
               <p className="my-4 max-w-xs leading-relaxed text-muted-foreground">
