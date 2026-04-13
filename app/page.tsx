@@ -1,10 +1,11 @@
+import Link from "next/link";
+import BioDescription from "@/components/bio-description";
 import { Header } from "@/components/header";
 import { SocialLinks } from "@/components/social-links";
-import Link from "next/link";
 import { ArrowUpRight, FileText } from "lucide-react";
-import BioDescription from "@/components/bio-description";
 import { ProjectsSection } from "@/components/projects-section";
 import { ExperiencesSection } from "@/components/experiences-section";
+import { SkillsSection } from "@/components/skills-section";
 
 export default function Home() {
   return (
@@ -54,6 +55,15 @@ export default function Home() {
                 </h2>
               </div>
               <BioDescription />
+            </section>
+
+            <section id="skills" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-28 md:scroll-mt-24 lg:scroll-mt-36">
+              <div className="mb-12 w-screen">
+                <h2 className="text-sm font-bold uppercase tracking-widest text-foreground">
+                  Skills
+                </h2>
+              </div>
+              <SkillsSection />
             </section>
 
             <section id="experience" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-28 md:scroll-mt-24 lg:scroll-mt-36">
