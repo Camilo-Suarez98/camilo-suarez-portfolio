@@ -1,5 +1,13 @@
 export const experiences = [
   {
+    dateRange: "March 2026 — Present",
+    title: "Software Developer",
+    company: "Dasantech Global Systems",
+    description:
+      "I work as a Software Developer building new components and features for a dropshipping platform. I also fix bugs and improve both frontend and backend functionality, helping optimize the platform performance and overall user experience.",
+    technologies: ["React", "Next.js", "TypeScript", "Node.js", "Python", "MySQL", "AWS", "Claude"],
+  },
+  {
     dateRange: "July 2025 — December 2025",
     title: "Frontend Developer",
     company: "Mocion Experience Tech",
