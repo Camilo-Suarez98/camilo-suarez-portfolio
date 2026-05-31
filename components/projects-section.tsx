@@ -18,7 +18,7 @@ export function ProjectsSection() {
 
       <div className="mt-12">
         <Link
-          href="https://github.com/Camilo-Suarez98"
+          href="https://github.com/Camilo-Suarez98?tab=repositories"
           target="_blank"
           rel="noopener noreferrer"
           className="group inline-flex items-center font-medium text-foreground hover:text-primary transition-colors"
