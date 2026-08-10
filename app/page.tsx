@@ -24,7 +24,7 @@ export default function Home() {
                 Fullstack Developer focused in Frontend
               </h2>
 
-              <p className="my-4 max-w-xs leading-relaxed text-muted-foreground">
+              <p className="my-4 max-w-md leading-relaxed text-muted-foreground">
                 I build scalable, user-centric web applications that merge precision engineering with modern aesthetics.
               </p>
 
@@ -47,9 +47,9 @@ export default function Home() {
             </div>
           </header>
 
-          <main className="pt-12 lg:w-1/2 lg:py-24">
+          <main className="pt-8 lg:w-1/2 lg:py-24">
             <section id="about" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-28 lg:scroll-mt-24">
-              <div className="mb-12 w-screen">
+              <div className="mb-8 w-full">
                 <h2 className="text-sm font-bold uppercase tracking-widest text-foreground">
                   About
                 </h2>
@@ -57,8 +57,8 @@ export default function Home() {
               <BioDescription />
             </section>
 
-            <section id="skills" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-28 md:scroll-mt-24 lg:scroll-mt-36">
-              <div className="mb-12 w-screen">
+            <section id="skills" className="mb-16 scroll-mt-16 md:mb-16 lg:mb-20 md:scroll-mt-24 lg:scroll-mt-36">
+              <div className="mb-8 w-full">
                 <h2 className="text-sm font-bold uppercase tracking-widest text-foreground">
                   Skills
                 </h2>
@@ -66,8 +66,8 @@ export default function Home() {
               <SkillsSection />
             </section>
 
-            <section id="experience" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-28 md:scroll-mt-24 lg:scroll-mt-36">
-              <div className="mb-12 w-screen">
+            <section id="experience" className="mb-16 scroll-mt-16 md:mb-16 lg:mb-20 md:scroll-mt-24 lg:scroll-mt-36">
+              <div className="mb-8 w-full">
                 <h2 className="text-sm font-bold uppercase tracking-widest text-foreground">
                   Experience
                 </h2>
@@ -75,8 +75,8 @@ export default function Home() {
               <ExperiencesSection />
             </section>
 
-            <section id="projects" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-28 md:scroll-mt-24 lg:scroll-mt-36">
-              <div className="mb-12 w-screen">
+            <section id="projects" className="scroll-mt-16 md:scroll-mt-24 lg:scroll-mt-36">
+              <div className="mb-8 w-full">
                 <h2 className="text-sm font-bold uppercase tracking-widest text-foreground">
                   Projects
                 </h2>
